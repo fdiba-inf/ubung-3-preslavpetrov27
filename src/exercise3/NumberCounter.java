@@ -6,22 +6,34 @@ public class NumberCounter {
   public static void main (String[] args) {
   
   Scanner input = new Scanner(System.in);
-  int number = input.nextInt();
+
+
   int positiv = 0;
+
   int negativ= 0;
-  int sum = 0;
-  int avarage = 0;
+
+  double sum = 0.0;
+
+  double avarage = 0.0;
+
   int count=0;
-  while ( number != 0){
-    if (number>0){
+  
+ int number = input.nextInt();
+
+  while ( number != 0) {
+    
+    if (number > 0){
       positiv++;
-    }else if( number < 0){
+    }else{
       negativ++;
       }
-     count++;
-    sum = sum + number;
+
     count++;
-    avarage = (sum + number)/count;
+    sum = sum + number;
+    avarage = (sum)/count;
+    number=input.nextInt();
+  
+   
   }
   System.out.println("Positive numbers: "+ positiv);
   System.out.println("Negative numbers: "+ negativ);
