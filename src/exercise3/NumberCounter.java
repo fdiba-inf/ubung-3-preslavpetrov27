@@ -36,7 +36,7 @@ public class NumberCounter {
    
   }
 
-  avarage = (sum)*1.0/count;
+  avarage = (sum)/count;
 
   System.out.println("Positive numbers: "+ positiv);
   System.out.println("Negative numbers: "+ negativ);
