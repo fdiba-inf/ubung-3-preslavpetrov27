@@ -15,7 +15,6 @@ public class NumberSearch {
    }
 
    if (count==10){
-     System.out.print(index);
       System.out.println();
      count=0;
    }
