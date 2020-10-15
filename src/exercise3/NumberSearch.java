@@ -8,12 +8,16 @@ public class NumberSearch {
    
  
    if (index%5==0 && index%6==0){
-     count++;
+    
        System.out.print(index +" ");
-     }
-     if (count==10){
+     
+     count++;
+   }
+
+   if (count==10){
+     System.out.print(index);
+      System.out.println();
      count=0;
-       System.out.println();
    }
      
    }
