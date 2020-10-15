@@ -15,8 +15,10 @@ public class NumberSearch {
    }
 
    if (count==10){
-      System.out.println();
-     count=0;
+      count=0;
+     System.out.print(number);
+    System.out.println();
+     
    }
      
    }
