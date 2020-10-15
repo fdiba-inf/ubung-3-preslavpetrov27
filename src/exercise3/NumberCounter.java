@@ -41,7 +41,7 @@ public class NumberCounter {
   System.out.println("Positive numbers: "+ positiv);
   System.out.println("Negative numbers: "+ negativ);
   System.out.println("Sum: " + sum);
-  System.out.println("Avarage: " + avarage);
+  System.out.println("Average: " + avarage);
   
 
 
