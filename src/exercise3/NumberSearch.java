@@ -9,7 +9,7 @@ public class NumberSearch {
  
    if (index%5==0 && index%6==0){
      count++;
-       System.out.print(" "+index);
+       System.out.print(index +" ");
      }
      if (count==10){
      count=0;
